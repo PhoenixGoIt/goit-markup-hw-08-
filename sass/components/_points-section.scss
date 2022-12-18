@@ -1,0 +1,121 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.point-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  color: #afb1b8;
+  margin-bottom: 30px;
+  height: 120px;
+  border-radius: 4px;
+}
+.point-svg {
+  width: 70px;
+  height: 70px;
+}
+.point-h3 {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #212121;
+}
+.poin-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .point-li {
+    text-align: center;
+  }
+  .point-li:not(.point-li:last-child) {
+    margin-bottom: 30px;
+  }
+  .poin-p {
+    text-align: center;
+  }
+}
+@media screen and(min-width:768px) {
+  .points-list {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 0px;
+  }
+  .point-li {
+    width: 354px;
+  }
+  .point-div {
+    width: 354px;
+    height: 120px;
+  }
+}
+
+/*---------1200---------*/
+
+@media screen and (min-width: 1200px) {
+  .points-list {
+    flex-wrap: nowrap;
+  }
+  /* ------------------- points-section -------------------*/
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .point-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4fa;
+    color: #afb1b8;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+  }
+  .point-svg {
+    width: 70px;
+    height: 70px;
+  }
+  .points-list {
+    gap: 30px;
+    display: flex;
+  }
+  .point-li:not(.point-li:last-child) {
+    gap: 30px;
+  }
+  .point-h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #212121;
+  }
+  .poin-p {
+    line-height: 1.71;
+  }
+}

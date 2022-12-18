@@ -1,0 +1,25 @@
+/* settings */
+@import "./utils/variables";
+@import "./utils/mobile-setting";
+/* header */
+@import "./components/header-section";
+@import "./components/logo";
+/* hero */
+@import "./components/hero-section";
+/* points */
+@import "./components/points-section";
+/* do */
+@import "./components/do-section";
+/* team */
+@import "./components/team-section";
+/* client */
+@import "./components/client-section";
+/* footer */
+@import "./components/footer-section";
+/* portfolio */
+@import "./components/portfolio";
+/* modal */
+@import "./components/modal-window";
+
+/* mobile-menu */
+@import "./components/mobile-menu";
